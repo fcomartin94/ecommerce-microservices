@@ -145,3 +145,18 @@ mvn spring-boot:run -DskipTests
 
 El repo tiene un `README.md` con instrucciones más “operativas” (curl y troubleshooting). Este `README_PUBLIC.md` está pensado para recruiter/portfolio.
 
+---
+
+## GitHub Codespaces (recruiter)
+Si el recruiter usa “Open in Codespaces”, basta con:
+
+1. Abrir la terminal en Codespaces y ejecutar:
+```bash
+bash scripts/start-codespaces.sh
+```
+
+2. Probar en el navegador:
+- `http://localhost:8080`
+
+El script levanta PostgreSQL en Docker y arranca todos los microservicios. Los puertos relevantes (incl. `8080`) quedan forwarded automáticamente por el `devcontainer.json`.
+

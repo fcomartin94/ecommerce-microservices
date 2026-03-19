@@ -15,6 +15,7 @@ target/
 
 # Logs
 *.log
+logs/
 
 # Optional local env overrides (if you add them later)
 *.env

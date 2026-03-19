@@ -250,3 +250,25 @@ curl -s -i -X POST http://localhost:8080/api/orders/reserve \
   -d '{"productId":1,"quantity":999}'
 ```
 
+## GitHub Codespaces (modo recruiter)
+Si el recruiter abre tu repo como “Open in Codespaces”, puede levantar todo con 2 pasos:
+
+1. En la terminal de Codespaces, ejecutar:
+```bash
+bash scripts/start-codespaces.sh
+```
+
+2. Esperar a que el script termine (verifica health checks vía el API Gateway) y abrir:
+- `http://localhost:8080` (API Gateway)
+
+Endpoints rápidos para probar:
+```bash
+curl http://localhost:8080/api/users/health
+curl http://localhost:8080/api/products
+curl -s -X POST http://localhost:8080/api/orders/reserve \
+  -H "Content-Type: application/json" \
+  -d '{"productId":1,"quantity":2}'
+```
+
+Nota: `product-service` usa PostgreSQL en Docker y la configuración (DB + JWT) está puesta por defecto en el `devcontainer.json`.
+

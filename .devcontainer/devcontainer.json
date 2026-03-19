@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-microservices",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "forwardPorts": [8080, 8761, 8081, 8082, 8083],
+  "remoteEnv": {
+    "DB_HOST": "host.docker.internal",
+    "DB_PORT": "5432",
+    "DB_NAME": "ecommerce",
+    "DB_USER": "postgres",
+    "DB_PASSWORD": "postgres",
+    "JWT_SECRET": "MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
+  },
+  "postCreateCommand": "mvn -DskipTests package",
+  "shutdownAction": "stopContainer"
+}
