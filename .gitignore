@@ -1,0 +1,22 @@
+# Maven build output
+target/
+**/target/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Optional local env overrides (if you add them later)
+*.env
+*.local.yml
+application-local.yml
