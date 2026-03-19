@@ -1,5 +1,7 @@
 # Ecommerce — Microservices con Spring Boot
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
+
 > Implementación de un mini e-commerce con **microservicios** (Spring Boot + Spring Cloud Gateway + Eureka) y persistencia real en **PostgreSQL** (catálogo/stock). Incluye **JWT auth** en `user-service` y flujo de negocio de “reservar pedido” validando stock contra `product-service`.
 
 ---
@@ -148,15 +150,17 @@ El repo tiene un `README.md` con instrucciones más “operativas” (curl y tro
 ---
 
 ## GitHub Codespaces (recruiter)
+
 Si el recruiter usa “Open in Codespaces”, basta con:
 
-1. Abrir la terminal en Codespaces y ejecutar:
-```bash
-bash scripts/start-codespaces.sh
-```
+- Abrir la terminal en Codespaces y ejecutar:
 
-2. Probar en el navegador:
-- `http://localhost:8080`
+  ```bash
+  bash scripts/start-codespaces.sh
+  ```
+
+- Probar en el navegador:
+
+  - `http://localhost:8080`
 
 El script levanta PostgreSQL en Docker y arranca todos los microservicios. Los puertos relevantes (incl. `8080`) quedan forwarded automáticamente por el `devcontainer.json`.
-
