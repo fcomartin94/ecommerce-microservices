@@ -1,3 +1,37 @@
+## Repository Navigation (Monorepo)
+
+This repository is a **Maven multi-module monorepo**. It contains five Spring Boot apps:
+
+- `eureka-server`
+- `api-gateway`
+- `user-service`
+- `product-service`
+- `order-service`
+
+Documentation convention used in this repo:
+
+- Root technical guide (EN): `README.md`
+- Root technical guide (ES): `README_ES.md`
+- Root recruiter overview (ES): `README_PUBLIC.md`
+- Root recruiter overview (EN): `README_PUBLIC_EN.md`
+- Per-module technical docs: `README_TECH_EN.md` / `README_TECH_ES.md`
+- Per-module recruiter docs: `OVERVIEW_EN.md` / `OVERVIEW_ES.md`
+
+Quick access by module:
+
+- `eureka-server`: `eureka-server/README_TECH_EN.md`, `eureka-server/README_TECH_ES.md`, `eureka-server/OVERVIEW_EN.md`, `eureka-server/OVERVIEW_ES.md`
+- `api-gateway`: `api-gateway/README_TECH_EN.md`, `api-gateway/README_TECH_ES.md`, `api-gateway/OVERVIEW_EN.md`, `api-gateway/OVERVIEW_ES.md`
+- `user-service`: `user-service/README_TECH_EN.md`, `user-service/README_TECH_ES.md`, `user-service/OVERVIEW_EN.md`, `user-service/OVERVIEW_ES.md`
+- `product-service`: `product-service/README_TECH_EN.md`, `product-service/README_TECH_ES.md`, `product-service/OVERVIEW_EN.md`, `product-service/OVERVIEW_ES.md`
+- `order-service`: `order-service/README_TECH_EN.md`, `order-service/README_TECH_ES.md`, `order-service/OVERVIEW_EN.md`, `order-service/OVERVIEW_ES.md`
+
+GitHub Codespaces:
+
+- Root-level button (single source of truth): `README_PUBLIC.md` and `README_PUBLIC_EN.md`
+- Target URL verified against current remote repository: `https://codespaces.new/fcomartin94/ecommerce-microservices`
+
+---
+
 # Mini E-Commerce (Microservices with Spring Boot)
 
 ## Status

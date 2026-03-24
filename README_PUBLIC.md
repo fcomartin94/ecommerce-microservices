@@ -2,6 +2,11 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
+Idioma / Language:
+- ES (actual): `README_PUBLIC.md`
+- EN: `README_PUBLIC_EN.md`
+- Indice tecnico raiz: `README.md` (EN) y `README_ES.md` (ES)
+
 > Implementación de un mini e-commerce con **microservicios** (Spring Boot + Spring Cloud Gateway + Eureka) y persistencia real en **PostgreSQL** (catálogo/stock). Incluye **JWT auth** en `user-service` y flujo de negocio de “reservar pedido” validando stock contra `product-service`.
 
 ---
@@ -146,6 +151,13 @@ mvn spring-boot:run -DskipTests
 ## Nota
 
 El repo tiene un `README.md` con instrucciones más “operativas” (curl y troubleshooting). Este `README_PUBLIC.md` está pensado para recruiter/portfolio.
+
+Overviews por modulo (recruiter):
+- `api-gateway/OVERVIEW_ES.md`
+- `eureka-server/OVERVIEW_ES.md`
+- `user-service/OVERVIEW_ES.md`
+- `product-service/OVERVIEW_ES.md`
+- `order-service/OVERVIEW_ES.md`
 
 ---
 
