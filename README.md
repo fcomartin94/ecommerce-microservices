@@ -1,5 +1,12 @@
 ## Repository Navigation (Monorepo)
 
+Language navigation:
+
+- Technical EN (current): `README.md`
+- Technical ES: `README_ES.md`
+- Recruiter ES: `README_PUBLIC.md`
+- Recruiter EN: `README_PUBLIC_EN.md`
+
 This repository is a **Maven multi-module monorepo**. It contains five Spring Boot apps:
 
 - `eureka-server`
@@ -32,7 +39,7 @@ GitHub Codespaces:
 
 ---
 
-# Mini E-Commerce (Microservices with Spring Boot)
+# Mini E-Commerce (Microservices with Spring Boot) (EN)
 
 ## Status
 Working end-to-end:

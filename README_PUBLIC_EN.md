@@ -1,4 +1,4 @@
-# Ecommerce - Spring Boot Microservices
+# Ecommerce - Spring Boot Microservices (EN)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
@@ -6,6 +6,12 @@ Language:
 - EN (current): `README_PUBLIC_EN.md`
 - ES: `README_PUBLIC.md`
 - Root technical index: `README.md` (EN) and `README_ES.md` (ES)
+
+Root documentation map:
+- Technical EN: `README.md`
+- Technical ES: `README_ES.md`
+- Recruiter EN (current): `README_PUBLIC_EN.md`
+- Recruiter ES: `README_PUBLIC.md`
 
 > Mini e-commerce implementation using **microservices** (Spring Boot + Spring Cloud Gateway + Eureka) with real persistence in **PostgreSQL** (catalog/stock). Includes **JWT auth** in `user-service` and a "reserve order" flow that validates stock against `product-service`.
 

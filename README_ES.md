@@ -1,4 +1,4 @@
-# Mini E-Commerce (Microservicios con Spring Boot)
+# Mini E-Commerce (Microservicios con Spring Boot) (ES)
 
 ## Navegacion del repositorio (Monorepo)
 
@@ -21,11 +21,11 @@ Convencion documental adoptada en este repo:
 
 Acceso rapido por modulo:
 
-- `eureka-server`: `README_TECH_EN.md`, `README_TECH_ES.md`, `OVERVIEW_EN.md`, `OVERVIEW_ES.md`
-- `api-gateway`: `README_TECH_EN.md`, `README_TECH_ES.md`, `OVERVIEW_EN.md`, `OVERVIEW_ES.md`
-- `user-service`: `README_TECH_EN.md`, `README_TECH_ES.md`, `OVERVIEW_EN.md`, `OVERVIEW_ES.md`
-- `product-service`: `README_TECH_EN.md`, `README_TECH_ES.md`, `OVERVIEW_EN.md`, `OVERVIEW_ES.md`
-- `order-service`: `README_TECH_EN.md`, `README_TECH_ES.md`, `OVERVIEW_EN.md`, `OVERVIEW_ES.md`
+- `eureka-server`: `eureka-server/README_TECH_EN.md`, `eureka-server/README_TECH_ES.md`, `eureka-server/OVERVIEW_EN.md`, `eureka-server/OVERVIEW_ES.md`
+- `api-gateway`: `api-gateway/README_TECH_EN.md`, `api-gateway/README_TECH_ES.md`, `api-gateway/OVERVIEW_EN.md`, `api-gateway/OVERVIEW_ES.md`
+- `user-service`: `user-service/README_TECH_EN.md`, `user-service/README_TECH_ES.md`, `user-service/OVERVIEW_EN.md`, `user-service/OVERVIEW_ES.md`
+- `product-service`: `product-service/README_TECH_EN.md`, `product-service/README_TECH_ES.md`, `product-service/OVERVIEW_EN.md`, `product-service/OVERVIEW_ES.md`
+- `order-service`: `order-service/README_TECH_EN.md`, `order-service/README_TECH_ES.md`, `order-service/OVERVIEW_EN.md`, `order-service/OVERVIEW_ES.md`
 
 Codespaces:
 
@@ -39,6 +39,7 @@ Codespaces:
 La version tecnica completa (paso a paso, endpoints, troubleshooting y demo curl) se mantiene en:
 
 - `README.md` (EN, original)
+- `README_ES.md` (ES, indice armonizado)
 
 La documentacion recruiter se mantiene en:
 
