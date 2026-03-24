@@ -4,8 +4,8 @@ Navegacion por idioma:
 
 - Tecnico ES (este archivo, guia completa): `README_ES.md`
 - Tecnico EN (traduccion equivalente): `README_EN.md`
-- Recruiter ES (equivalente al EN): `README_PUBLIC_ES.md`
-- Recruiter EN (equivalente al ES): `README_PUBLIC_EN.md`
+- Recruiter ES (equivalente al EN): `OVERVIEW_ES.md`
+- Recruiter EN (equivalente al ES): `OVERVIEW_EN.md`
 
 Este repositorio es un **monorepo multi-modulo Maven**. Contiene cinco aplicaciones Spring Boot:
 
@@ -19,8 +19,8 @@ Convencion documental:
 
 - Guia tecnica raiz (EN): `README_EN.md`
 - Guia tecnica raiz (ES): `README_ES.md` (par bilingue equivalente con la guia EN)
-- Guia recruiter (ES): `README_PUBLIC_ES.md`
-- Guia recruiter (EN): `README_PUBLIC_EN.md`
+- Guia recruiter (ES): `OVERVIEW_ES.md`
+- Guia recruiter (EN): `OVERVIEW_EN.md`
 - Docs tecnicas por modulo: `README_TECH_EN.md` / `README_TECH_ES.md`
 - Docs recruiter por modulo: `OVERVIEW_EN.md` / `OVERVIEW_ES.md`
 
@@ -34,7 +34,7 @@ Acceso rapido por modulo:
 
 GitHub Codespaces:
 
-- Boton en raiz (fuente unica): `README_PUBLIC_ES.md` y `README_PUBLIC_EN.md`
+- Boton en raiz (fuente unica): `OVERVIEW_ES.md` y `OVERVIEW_EN.md`
 - URL verificada con el remoto actual: `https://codespaces.new/fcomartin94/ecommerce-microservices`
 
 ---

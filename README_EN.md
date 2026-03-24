@@ -4,8 +4,8 @@ Language navigation:
 
 - Technical EN (this file, full guide): `README_EN.md`
 - Technical ES (equivalent translation): `README_ES.md`
-- Recruiter ES (equivalent to EN): `README_PUBLIC_ES.md`
-- Recruiter EN (equivalent to ES): `README_PUBLIC_EN.md`
+- Recruiter ES (equivalent to EN): `OVERVIEW_ES.md`
+- Recruiter EN (equivalent to ES): `OVERVIEW_EN.md`
 
 This repository is a **Maven multi-module monorepo**. It contains five Spring Boot apps:
 
@@ -19,8 +19,8 @@ Documentation convention used in this repo:
 
 - Root technical guide (EN): `README_EN.md`
 - Root technical guide (ES, bilingual equivalent): `README_ES.md`
-- Root recruiter overview (ES): `README_PUBLIC_ES.md`
-- Root recruiter overview (EN): `README_PUBLIC_EN.md`
+- Root recruiter overview (ES): `OVERVIEW_ES.md`
+- Root recruiter overview (EN): `OVERVIEW_EN.md`
 - Per-module technical docs: `README_TECH_EN.md` / `README_TECH_ES.md`
 - Per-module recruiter docs: `OVERVIEW_EN.md` / `OVERVIEW_ES.md`
 
@@ -34,7 +34,7 @@ Quick access by module:
 
 GitHub Codespaces:
 
-- Root-level button (single source of truth): `README_PUBLIC_ES.md` and `README_PUBLIC_EN.md`
+- Root-level button (single source of truth): `OVERVIEW_ES.md` and `OVERVIEW_EN.md`
 - Target URL verified against current remote repository: `https://codespaces.new/fcomartin94/ecommerce-microservices`
 
 ---

@@ -3,8 +3,8 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
 Idioma / Language (par recruiter **equivalente**):
-- ES (este archivo): `README_PUBLIC_ES.md`
-- EN: `README_PUBLIC_EN.md`
+- ES (este archivo): `OVERVIEW_ES.md`
+- EN: `OVERVIEW_EN.md`
 
 Tecnico (par **equivalente** bilingue):
 - EN: `README_EN.md`
@@ -154,7 +154,7 @@ mvn spring-boot:run -DskipTests
 
 ## Nota
 
-El repo tiene `README_EN.md` y `README_ES.md` con instrucciones operativas equivalentes (curl y troubleshooting). Este `README_PUBLIC_ES.md` es la version recruiter en espanol; la equivalente en ingles es `README_PUBLIC_EN.md`.
+El repo tiene `README_EN.md` y `README_ES.md` con instrucciones operativas equivalentes (curl y troubleshooting). Este `OVERVIEW_ES.md` es la version recruiter en espanol; la equivalente en ingles es `OVERVIEW_EN.md`.
 
 Overviews por modulo (recruiter):
 - `api-gateway/OVERVIEW_ES.md`
