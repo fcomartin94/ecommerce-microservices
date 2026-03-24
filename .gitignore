@@ -1,6 +1,9 @@
 # Maven build output
 target/
 **/target/
+build/
+out/
+*.class
 
 # IDE/editor files
 .idea/
@@ -9,6 +12,7 @@ target/
 .classpath
 .project
 .settings/
+local.properties
 
 # OS files
 .DS_Store
