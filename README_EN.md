@@ -2,8 +2,8 @@
 
 Language navigation:
 
-- Technical EN (full guide): `README_EN.md` (this file)
-- Technical ES (index only, not a full translation): `README_ES.md`
+- Technical EN (this file, full guide): `README_EN.md`
+- Technical ES (equivalent translation): `README_ES.md`
 - Recruiter ES (equivalent to EN): `README_PUBLIC_ES.md`
 - Recruiter EN (equivalent to ES): `README_PUBLIC_EN.md`
 
@@ -17,8 +17,8 @@ This repository is a **Maven multi-module monorepo**. It contains five Spring Bo
 
 Documentation convention used in this repo:
 
-- Root technical guide (EN, full): `README_EN.md`
-- Root technical index (ES, not equivalent to the EN guide): `README_ES.md`
+- Root technical guide (EN): `README_EN.md`
+- Root technical guide (ES, bilingual equivalent): `README_ES.md`
 - Root recruiter overview (ES): `README_PUBLIC_ES.md`
 - Root recruiter overview (EN): `README_PUBLIC_EN.md`
 - Per-module technical docs: `README_TECH_EN.md` / `README_TECH_ES.md`
@@ -291,18 +291,18 @@ curl -s -i -X POST http://localhost:8080/api/orders/reserve \
   -d '{"productId":1,"quantity":999}'
 ```
 
-## GitHub Codespaces (modo recruiter)
-Si el recruiter abre tu repo como “Open in Codespaces”, puede levantar todo con 2 pasos:
+## GitHub Codespaces (recruiter mode)
+If someone opens the repo with "Open in Codespaces", they can bring everything up in two steps:
 
-1. En la terminal de Codespaces, ejecutar:
+1. In the Codespaces terminal, run:
 ```bash
 bash scripts/start-codespaces.sh
 ```
 
-2. Esperar a que el script termine (verifica health checks vía el API Gateway) y abrir:
+2. Wait until the script finishes (it checks health via the API Gateway) and open:
 - `http://localhost:8080` (API Gateway)
 
-Endpoints rápidos para probar:
+Quick endpoints to try:
 ```bash
 curl http://localhost:8080/api/users/health
 curl http://localhost:8080/api/products
@@ -311,5 +311,5 @@ curl -s -X POST http://localhost:8080/api/orders/reserve \
   -d '{"productId":1,"quantity":2}'
 ```
 
-Nota: `product-service` usa PostgreSQL en Docker y la configuración (DB + JWT) está puesta por defecto en el `devcontainer.json`.
+Note: `product-service` uses PostgreSQL in Docker; DB + JWT defaults are set in `devcontainer.json`.
 

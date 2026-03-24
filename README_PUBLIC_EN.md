@@ -6,9 +6,9 @@ Language (recruiter **equivalent** pair):
 - EN (this file): `README_PUBLIC_EN.md`
 - ES: `README_PUBLIC_ES.md`
 
-Technical (**not** equivalent across languages):
-- Full guide (EN): `README_EN.md`
-- Index and conventions (ES): `README_ES.md`
+Technical (bilingual **equivalent** pair):
+- EN: `README_EN.md`
+- ES: `README_ES.md`
 - GitHub landing: `README.md`
 
 > Mini e-commerce implementation using **microservices** (Spring Boot + Spring Cloud Gateway + Eureka) with real persistence in **PostgreSQL** (catalog/stock). Includes **JWT auth** in `user-service` and a "reserve order" flow that validates stock against `product-service`.
@@ -156,8 +156,7 @@ mvn spring-boot:run -DskipTests
 
 The repo includes:
 
-- `README_EN.md` for full operational details (curl + troubleshooting)
-- `README_ES.md` as the Spanish technical index only (not a full translation of `README_EN.md`)
+- `README_EN.md` / `README_ES.md` for full operational guides (curl + troubleshooting), bilingual equivalents
 - `README_PUBLIC_ES.md` as the Spanish recruiter overview (equivalent to this file)
 
 Module overviews (recruiter):
