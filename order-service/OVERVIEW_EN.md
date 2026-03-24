@@ -1,9 +1,13 @@
 # Order Service - Recruiter Overview (EN)
 
-`order-service` represents business orchestration: it checks stock and returns reservation outcomes.
+`order-service` is the business orchestration layer for reservation flow.
 
-## Why it matters
+## Recruiter snapshot
 
-- Demonstrates service-to-service communication
-- Encodes a concrete business rule (reserve only if stock is enough)
-- Returns explicit outcomes for success (`200`) and conflict (`409`)
+- Pattern: service-to-service orchestration with explicit business rules
+- Product signal: reserve only when stock is sufficient
+- API signal: clear outcomes for success (`200`) and conflict (`409`)
+
+## Business value
+
+This module turns stock validation into a predictable order decision, improving reliability for checkout-like scenarios.

@@ -1,9 +1,13 @@
 # User Service - Overview recruiter (ES)
 
-`user-service` implementa registro/login y devuelve tokens JWT para uso autenticado.
+`user-service` gestiona registro/login y emite tokens JWT para acceso autenticado.
 
-## Por que importa
+## Snapshot recruiter
 
-- Demuestra flujo de autenticacion seguro
-- Usa hashing de password y sesiones basadas en token
-- Muestra seguridad backend aplicada a microservicios
+- Patron: autenticacion stateless en backend de microservicios
+- Senal de seguridad: hashing de password mas autenticacion por token
+- Senal de producto: frontera de autenticacion reutilizable para clientes
+
+## Valor de negocio
+
+Este modulo aporta una base de autenticacion estilo produccion que protege APIs sin complicar la integracion.

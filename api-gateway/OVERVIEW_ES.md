@@ -1,13 +1,13 @@
 # API Gateway - Overview recruiter (ES)
 
-`api-gateway` facilita el consumo del proyecto: un unico endpoint publico (`:8080`) que redirige llamadas a todos los microservicios.
+`api-gateway` es el punto de entrada de la plataforma: una unica URL publica (`:8080`) que enruta trafico a todos los servicios backend.
 
-## Por que importa
+## Snapshot recruiter
 
-- Demuestra patron API Gateway en arquitectura de microservicios
-- Usa enrutado balanceado con Eureka (`lb://...`)
-- Desacopla al cliente de la topologia interna de servicios
+- Patron: API Gateway aplicado en una arquitectura de microservicios real
+- Resultado: integracion de clientes mas simple y limites de servicio mas claros
+- Senal de robustez: enrutado con descubrimiento via Eureka (`lb://...`)
 
-## Mensaje de valor rapido
+## Valor de negocio
 
-Este modulo es la puerta de entrada de la plataforma y centraliza rutas para usuarios, productos y pedidos.
+Este modulo centraliza rutas de usuarios, productos y pedidos, reduciendo friccion de integracion y facilitando escalabilidad.

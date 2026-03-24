@@ -1,9 +1,13 @@
 # Eureka Server - Overview recruiter (ES)
 
-`eureka-server` es la base de descubrimiento de la plataforma.
+`eureka-server` es la base de descubrimiento que permite a los servicios encontrarse dinamicamente.
 
-## Por que importa
+## Snapshot recruiter
 
-- Habilita registro dinamico de microservicios
-- Permite comunicacion por nombre de servicio (sin hosts/puertos fijos)
-- Demuestra uso real de Spring Cloud en arquitectura distribuida
+- Patron: service discovery para sistemas distribuidos
+- Resultado: menos infraestructura hardcodeada y cambios de entorno mas simples
+- Senal tecnica: gateway/servicios se comunican por nombre de servicio, no por host/puerto fijo
+
+## Valor de negocio
+
+Este modulo mejora flexibilidad de despliegue y mantiene la comunicacion entre servicios sostenible a medida que crece la plataforma.

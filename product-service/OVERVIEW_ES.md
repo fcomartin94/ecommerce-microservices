@@ -1,9 +1,13 @@
 # Product Service - Overview recruiter (ES)
 
-`product-service` provee catalogo y fuente de verdad del stock.
+`product-service` es la fuente de verdad del catalogo y del stock.
 
-## Por que importa
+## Snapshot recruiter
 
-- Usa persistencia real con PostgreSQL
-- Soporta navegacion (`/products`) y chequeo de stock (`/stock/{id}`)
-- Alimenta decisiones de negocio de `order-service`
+- Patron: servicio de dominio con ownership de datos persistentes
+- Senal de datos: catalogo e inventario sobre PostgreSQL
+- Senal de integracion: cubre navegacion de cliente y validacion interna de stock
+
+## Valor de negocio
+
+Este modulo habilita decisiones de inventario consistentes y reduce errores de pedido al centralizar la validacion de stock.

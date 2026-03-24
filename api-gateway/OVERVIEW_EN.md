@@ -1,13 +1,13 @@
 # API Gateway - Recruiter Overview (EN)
 
-`api-gateway` makes the project easy to consume: one public endpoint (`:8080`) that forwards calls to all microservices.
+`api-gateway` is the platform entry point: one public URL (`:8080`) that routes traffic to all backend services.
 
-## Why it matters
+## Recruiter snapshot
 
-- Demonstrates API gateway pattern in a microservices setup
-- Uses Eureka-based load-balanced routing (`lb://...`)
-- Keeps client apps decoupled from internal service topology
+- Pattern: API Gateway in a real microservices setup
+- Outcome: simpler client integration and cleaner service boundaries
+- Reliability signal: discovery-aware routing through Eureka (`lb://...`)
 
-## Quick value statement
+## Business value
 
-This module is the front door of the platform and centralizes routing for users, products, and orders.
+This module centralizes traffic for users, products, and orders, reducing integration friction and making the platform easier to scale.
