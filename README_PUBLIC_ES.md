@@ -2,16 +2,14 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
-Idioma / Language:
-- ES (actual): `README_PUBLIC.md`
+Idioma / Language (par recruiter **equivalente**):
+- ES (este archivo): `README_PUBLIC_ES.md`
 - EN: `README_PUBLIC_EN.md`
-- Indice tecnico raiz: `README.md` (EN) y `README_ES.md` (ES)
 
-Mapa documental raiz:
-- Tecnico EN: `README.md`
-- Tecnico ES: `README_ES.md`
-- Recruiter ES (actual): `README_PUBLIC.md`
-- Recruiter EN: `README_PUBLIC_EN.md`
+Tecnico (**no** equivalente entre idiomas):
+- Guia completa (EN): `README_EN.md`
+- Indice y convencion (ES): `README_ES.md`
+- Entrada GitHub: `README.md`
 
 > Implementación de un mini e-commerce con **microservicios** (Spring Boot + Spring Cloud Gateway + Eureka) y persistencia real en **PostgreSQL** (catálogo/stock). Incluye **JWT auth** en `user-service` y flujo de negocio de “reservar pedido” validando stock contra `product-service`.
 
@@ -156,7 +154,7 @@ mvn spring-boot:run -DskipTests
 
 ## Nota
 
-El repo tiene un `README.md` con instrucciones más “operativas” (curl y troubleshooting). Este `README_PUBLIC.md` está pensado para recruiter/portfolio.
+El repo tiene `README_EN.md` con instrucciones operativas (curl y troubleshooting). Este `README_PUBLIC_ES.md` es la version recruiter en espanol; la version equivalente en ingles es `README_PUBLIC_EN.md`.
 
 Overviews por modulo (recruiter):
 - `api-gateway/OVERVIEW_ES.md`

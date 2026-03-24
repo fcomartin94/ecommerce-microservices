@@ -12,10 +12,10 @@ Este repositorio es un **monorepo multi-modulo Maven**. Contiene cinco apps Spri
 
 Convencion documental adoptada en este repo:
 
-- Guia tecnica raiz (EN): `README.md`
-- Guia tecnica raiz (ES): `README_ES.md`
-- Guia recruiter raiz (ES): `README_PUBLIC.md`
-- Guia recruiter raiz (EN): `README_PUBLIC_EN.md`
+- Guia tecnica completa (EN): `README_EN.md` (curl, arranque, troubleshooting)
+- Indice tecnico (ES, **no** es traduccion completa de la guia EN): `README_ES.md` (este archivo)
+- Guia recruiter (ES), equivalente al EN: `README_PUBLIC_ES.md`
+- Guia recruiter (EN), equivalente al ES: `README_PUBLIC_EN.md`
 - Docs tecnicas por modulo: `README_TECH_EN.md` / `README_TECH_ES.md`
 - Docs recruiter por modulo: `OVERVIEW_EN.md` / `OVERVIEW_ES.md`
 
@@ -29,19 +29,22 @@ Acceso rapido por modulo:
 
 Codespaces:
 
-- Boton centralizado en raiz: `README_PUBLIC.md` y `README_PUBLIC_EN.md`
+- Boton centralizado en raiz: `README_PUBLIC_ES.md` y `README_PUBLIC_EN.md`
 - URL validada contra remoto actual: `https://codespaces.new/fcomartin94/ecommerce-microservices`
 
 ---
 
 ## Guia tecnica detallada
 
-La version tecnica completa (paso a paso, endpoints, troubleshooting y demo curl) se mantiene en:
+La guia tecnica **completa** (paso a paso, endpoints, troubleshooting y demo curl) esta solo en ingles:
 
-- `README.md` (EN, original)
-- `README_ES.md` (ES, indice armonizado)
+- `README_EN.md`
 
-La documentacion recruiter se mantiene en:
+Este `README_ES.md` es **indice y convencion**: no duplica toda la guia EN.
 
-- `README_PUBLIC.md` (ES, original)
-- `README_PUBLIC_EN.md` (EN)
+La documentacion recruiter (par bilingue **equivalente**) esta en:
+
+- `README_PUBLIC_ES.md`
+- `README_PUBLIC_EN.md`
+
+Entrada rapida al repo (tabla resumen): `README.md`

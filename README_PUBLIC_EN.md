@@ -2,16 +2,14 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
-Language:
-- EN (current): `README_PUBLIC_EN.md`
-- ES: `README_PUBLIC.md`
-- Root technical index: `README.md` (EN) and `README_ES.md` (ES)
+Language (recruiter **equivalent** pair):
+- EN (this file): `README_PUBLIC_EN.md`
+- ES: `README_PUBLIC_ES.md`
 
-Root documentation map:
-- Technical EN: `README.md`
-- Technical ES: `README_ES.md`
-- Recruiter EN (current): `README_PUBLIC_EN.md`
-- Recruiter ES: `README_PUBLIC.md`
+Technical (**not** equivalent across languages):
+- Full guide (EN): `README_EN.md`
+- Index and conventions (ES): `README_ES.md`
+- GitHub landing: `README.md`
 
 > Mini e-commerce implementation using **microservices** (Spring Boot + Spring Cloud Gateway + Eureka) with real persistence in **PostgreSQL** (catalog/stock). Includes **JWT auth** in `user-service` and a "reserve order" flow that validates stock against `product-service`.
 
@@ -158,9 +156,9 @@ mvn spring-boot:run -DskipTests
 
 The repo includes:
 
-- `README.md` for operational details (curl + troubleshooting)
-- `README_ES.md` as the root technical index in Spanish
-- `README_PUBLIC.md` as recruiter-oriented version in Spanish
+- `README_EN.md` for full operational details (curl + troubleshooting)
+- `README_ES.md` as the Spanish technical index only (not a full translation of `README_EN.md`)
+- `README_PUBLIC_ES.md` as the Spanish recruiter overview (equivalent to this file)
 
 Module overviews (recruiter):
 - `api-gateway/OVERVIEW_EN.md`

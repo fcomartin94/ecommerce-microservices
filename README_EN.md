@@ -2,10 +2,10 @@
 
 Language navigation:
 
-- Technical EN (current): `README.md`
-- Technical ES: `README_ES.md`
-- Recruiter ES: `README_PUBLIC.md`
-- Recruiter EN: `README_PUBLIC_EN.md`
+- Technical EN (full guide): `README_EN.md` (this file)
+- Technical ES (index only, not a full translation): `README_ES.md`
+- Recruiter ES (equivalent to EN): `README_PUBLIC_ES.md`
+- Recruiter EN (equivalent to ES): `README_PUBLIC_EN.md`
 
 This repository is a **Maven multi-module monorepo**. It contains five Spring Boot apps:
 
@@ -17,9 +17,9 @@ This repository is a **Maven multi-module monorepo**. It contains five Spring Bo
 
 Documentation convention used in this repo:
 
-- Root technical guide (EN): `README.md`
-- Root technical guide (ES): `README_ES.md`
-- Root recruiter overview (ES): `README_PUBLIC.md`
+- Root technical guide (EN, full): `README_EN.md`
+- Root technical index (ES, not equivalent to the EN guide): `README_ES.md`
+- Root recruiter overview (ES): `README_PUBLIC_ES.md`
 - Root recruiter overview (EN): `README_PUBLIC_EN.md`
 - Per-module technical docs: `README_TECH_EN.md` / `README_TECH_ES.md`
 - Per-module recruiter docs: `OVERVIEW_EN.md` / `OVERVIEW_ES.md`
@@ -34,7 +34,7 @@ Quick access by module:
 
 GitHub Codespaces:
 
-- Root-level button (single source of truth): `README_PUBLIC.md` and `README_PUBLIC_EN.md`
+- Root-level button (single source of truth): `README_PUBLIC_ES.md` and `README_PUBLIC_EN.md`
 - Target URL verified against current remote repository: `https://codespaces.new/fcomartin94/ecommerce-microservices`
 
 ---
