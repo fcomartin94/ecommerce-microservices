@@ -50,6 +50,7 @@ order-service (8083)
 product-service (8082)
 ```
 
+> 🔗 [Ver arquitectura interactiva](https://fcomartin94.github.io/ecommerce-microservices-visualizer/) — visualizador web con detalle de cada servicio.
 ---
 
 ## Qué hace cada microservicio
