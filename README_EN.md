@@ -1,45 +1,10 @@
-## Repository Navigation (Monorepo)
+# Mini E-Commerce — Spring Boot Microservices (Technical Guide)
 
-Language navigation:
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
-- Technical EN (this file, full guide): `README_EN.md`
-- Technical ES (equivalent translation): `README_ES.md`
-- Recruiter ES (equivalent to EN): `OVERVIEW_ES.md`
-- Recruiter EN (equivalent to ES): `OVERVIEW_EN.md`
+Portfolio overview: [`OVERVIEW_EN.md`](OVERVIEW_EN.md) · GitHub landing: [`README.md`](README.md)
 
-This repository is a **Maven multi-module monorepo**. It contains five Spring Boot apps:
-
-- `eureka-server`
-- `api-gateway`
-- `user-service`
-- `product-service`
-- `order-service`
-
-Documentation convention used in this repo:
-
-- Root technical guide (EN): `README_EN.md`
-- Root technical guide (ES, bilingual equivalent): `README_ES.md`
-- Root recruiter overview (ES): `OVERVIEW_ES.md`
-- Root recruiter overview (EN): `OVERVIEW_EN.md`
-- Per-module technical docs: `README_TECH_EN.md` / `README_TECH_ES.md`
-- Per-module recruiter docs: `OVERVIEW_EN.md` / `OVERVIEW_ES.md`
-
-Quick access by module:
-
-- `eureka-server`: `eureka-server/README_TECH_EN.md`, `eureka-server/README_TECH_ES.md`, `eureka-server/OVERVIEW_EN.md`, `eureka-server/OVERVIEW_ES.md`
-- `api-gateway`: `api-gateway/README_TECH_EN.md`, `api-gateway/README_TECH_ES.md`, `api-gateway/OVERVIEW_EN.md`, `api-gateway/OVERVIEW_ES.md`
-- `user-service`: `user-service/README_TECH_EN.md`, `user-service/README_TECH_ES.md`, `user-service/OVERVIEW_EN.md`, `user-service/OVERVIEW_ES.md`
-- `product-service`: `product-service/README_TECH_EN.md`, `product-service/README_TECH_ES.md`, `product-service/OVERVIEW_EN.md`, `product-service/OVERVIEW_ES.md`
-- `order-service`: `order-service/README_TECH_EN.md`, `order-service/README_TECH_ES.md`, `order-service/OVERVIEW_EN.md`, `order-service/OVERVIEW_ES.md`
-
-GitHub Codespaces:
-
-- Root-level button (single source of truth): `OVERVIEW_ES.md` and `OVERVIEW_EN.md`
-- Target URL verified against current remote repository: `https://codespaces.new/fcomartin94/ecommerce-microservices`
-
----
-
-# Mini E-Commerce (Microservices with Spring Boot) (EN)
+Per-module docs: [`api-gateway/`](api-gateway/OVERVIEW_EN.md) · [`eureka-server/`](eureka-server/OVERVIEW_EN.md) · [`user-service/`](user-service/OVERVIEW_EN.md) · [`product-service/`](product-service/OVERVIEW_EN.md) · [`order-service/`](order-service/OVERVIEW_EN.md)
 
 ## Status
 Working end-to-end:

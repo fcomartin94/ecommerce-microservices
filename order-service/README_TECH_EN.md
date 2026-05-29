@@ -34,6 +34,5 @@ mvn spring-boot:run -DskipTests
 
 ## Related docs
 
-- Spanish technical version: `README_TECH_ES.md`
-- Recruiter overview (EN): `OVERVIEW_EN.md`
-- Recruiter overview (ES): `OVERVIEW_ES.md`
+- Overview: [`OVERVIEW_EN.md`](OVERVIEW_EN.md)
+- Monorepo: [`../README_EN.md`](../README_EN.md)

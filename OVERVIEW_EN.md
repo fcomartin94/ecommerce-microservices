@@ -2,14 +2,7 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
 
-Language (recruiter **equivalent** pair):
-- EN (this file): `OVERVIEW_EN.md`
-- ES: `OVERVIEW_ES.md`
-
-Technical (bilingual **equivalent** pair):
-- EN: `README_EN.md`
-- ES: `README_ES.md`
-- GitHub landing: `README.md`
+Full technical guide: [`README_EN.md`](README_EN.md) · GitHub landing: [`README.md`](README.md)
 
 > Mini e-commerce implementation using **microservices** (Spring Boot + Spring Cloud Gateway + Eureka) with real persistence in **PostgreSQL** (catalog/stock). Includes **JWT auth** in `user-service` and a "reserve order" flow that validates stock against `product-service`.
 
@@ -153,19 +146,13 @@ mvn spring-boot:run -DskipTests
 
 ---
 
-## Note
+## Module overviews
 
-The repo includes:
-
-- `README_EN.md` / `README_ES.md` for full operational guides (curl + troubleshooting), bilingual equivalents
-- `OVERVIEW_ES.md` as the Spanish recruiter overview (equivalent to this file)
-
-Module overviews (recruiter):
-- `api-gateway/OVERVIEW_EN.md`
-- `eureka-server/OVERVIEW_EN.md`
-- `user-service/OVERVIEW_EN.md`
-- `product-service/OVERVIEW_EN.md`
-- `order-service/OVERVIEW_EN.md`
+- [`api-gateway/OVERVIEW_EN.md`](api-gateway/OVERVIEW_EN.md)
+- [`eureka-server/OVERVIEW_EN.md`](eureka-server/OVERVIEW_EN.md)
+- [`user-service/OVERVIEW_EN.md`](user-service/OVERVIEW_EN.md)
+- [`product-service/OVERVIEW_EN.md`](product-service/OVERVIEW_EN.md)
+- [`order-service/OVERVIEW_EN.md`](order-service/OVERVIEW_EN.md)
 
 ---
 
