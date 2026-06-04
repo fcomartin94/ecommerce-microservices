@@ -14,5 +14,6 @@
     "JWT_SECRET": "MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA="
   },
   "postCreateCommand": "mvn -DskipTests package",
+  "postStartCommand": "bash scripts/start-codespaces.sh",
   "shutdownAction": "stopContainer"
 }
