@@ -1,7 +1,5 @@
 # Mini E-Commerce — Spring Boot Microservices
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/fcomartin94/ecommerce-microservices)
-
 > Full microservices backend with **Spring Boot + Spring Cloud Gateway + Eureka**, real **PostgreSQL** persistence, **JWT authentication**, and inter-service communication. Five independent services working end-to-end through a single API Gateway entry point.
 
 🔗 **[View interactive architecture diagram](https://fcomartin94.github.io/ecommerce-microservices-visualizer/)**
@@ -82,16 +80,6 @@ curl -s -X POST http://localhost:8080/api/orders/reserve \
   -H "Content-Type: application/json" \
   -d '{"productId":1,"quantity":2}'
 ```
-
-## GitHub Codespaces
-
-Open in Codespaces with the button above, then run:
-
-```bash
-bash scripts/start-codespaces.sh
-```
-
-The script starts PostgreSQL in Docker and brings up all five services. Port `8080` is auto-forwarded.
 
 ## Interactive diagram
 
