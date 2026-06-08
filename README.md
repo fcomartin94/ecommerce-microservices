@@ -79,3 +79,6 @@ curl -s -X POST http://localhost:8080/api/orders/reserve \
   -d '{"productId":1,"quantity":2}'
 ```
 
+## License
+
+MIT
