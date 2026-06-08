@@ -53,12 +53,12 @@ public class JwtService {
      */
     public String generateToken(Map<String, Object> extraClaims, UserDetails userDetails) {
         return Jwts.builder()
-                .setClaims(extraClaims)
-                .setSubject(userDetails.getUsername())
-                .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + expiration))
-                .signWith(getSigningKey(), SignatureAlgorithm.HS256)
-                .compact();
+                .setClaims(extraClaims)                                          // claims adicionales (ej. roles)
+                .setSubject(userDetails.getUsername())                           // "sub" = email del usuario
+                .setIssuedAt(new Date())                                         // "iat" = timestamp actual
+                .setExpiration(new Date(System.currentTimeMillis() + expiration))// "exp" = iat + 24h
+                .signWith(getSigningKey(), SignatureAlgorithm.HS256)             // firma HMAC-SHA256
+                .compact();                                                      // serializar a Base64url
     }
 
     /**
@@ -71,6 +71,8 @@ public class JwtService {
      */
     public boolean isTokenValid(String token, UserDetails userDetails) {
         final String username = extractUsername(token);
+        // Doble verificación: el sujeto del token coincide con el usuario cargado de BD
+        // Y el token no ha superado su fecha de expiración
         return username.equals(userDetails.getUsername()) && !isTokenExpired(token);
     }
 
@@ -104,6 +106,7 @@ public class JwtService {
      * @return the extracted claim value
      */
     public <T> T extractClaim(String token, Function<Claims, T> claimsResolver) {
+        // Parsear el token completo y luego aplicar la función extractora al mapa de claims
         final Claims claims = extractAllClaims(token);
         return claimsResolver.apply(claims);
     }
@@ -117,10 +120,10 @@ public class JwtService {
      */
     private Claims extractAllClaims(String token) {
         return Jwts.parserBuilder()
-                .setSigningKey(getSigningKey())
+                .setSigningKey(getSigningKey()) // usar la misma clave con la que se firmó
                 .build()
-                .parseClaimsJws(token)
-                .getBody();
+                .parseClaimsJws(token)         // verificar firma y deserializar; lanza JwtException si inválido
+                .getBody();                    // devolver solo el payload (claims), no la cabecera
     }
 
     /**
@@ -129,7 +132,9 @@ public class JwtService {
      * @return a {@link Key} suitable for HS256 signing/verification
      */
     private Key getSigningKey() {
+        // Decodificar el secreto de Base64 a bytes crudos
         byte[] keyBytes = io.jsonwebtoken.io.Decoders.BASE64.decode(secretKey);
+        // Crear una clave HMAC-SHA a partir de los bytes (requiere mínimo 256 bits = 32 bytes)
         return Keys.hmacShaKeyFor(keyBytes);
     }
 }

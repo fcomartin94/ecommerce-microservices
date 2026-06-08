@@ -93,8 +93,6 @@ bash scripts/start-codespaces.sh
 
 The script starts PostgreSQL in Docker and brings up all five services. Port `8080` is auto-forwarded.
 
-## Documentation
+## Interactive diagram
 
-- **Full technical guide** (endpoints, curl demo, troubleshooting): [`README_EN.md`](README_EN.md)
-- **Per-service docs**: `<service>/OVERVIEW_EN.md` and `<service>/README_TECH_EN.md`
-- **Interactive diagram**: [ecommerce-microservices-visualizer](https://github.com/fcomartin94/ecommerce-microservices-visualizer)
+[ecommerce-microservices-visualizer](https://github.com/fcomartin94/ecommerce-microservices-visualizer)

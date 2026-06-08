@@ -6,6 +6,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * JPA entity representing a registered user.
+ *
+ * <p>Persisted in the H2 in-memory {@code users} table. The email field
+ * serves as the unique identifier for authentication (Spring Security
+ * {@code username}). Passwords are always stored as BCrypt hashes —
+ * never in plain text.</p>
+ *
+ * <p>The {@link Role} enum controls endpoint access; all self-registered
+ * users receive the {@code USER} role by default.</p>
+ */
 @Entity
 @Table(name = "users")
 @Data

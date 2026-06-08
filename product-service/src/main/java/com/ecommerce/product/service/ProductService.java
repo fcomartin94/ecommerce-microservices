@@ -2,7 +2,9 @@ package com.ecommerce.product.service;
 
 import com.ecommerce.product.model.Product;
 import com.ecommerce.product.repository.ProductRepository;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -47,8 +49,10 @@ public class ProductService {
      * @throws RuntimeException if no product with the given ID exists
      */
     public Product getById(Long id) {
+        // findById devuelve Optional<Product>; si está vacío, lanzar 404 en lugar de RuntimeException.
+        // ResponseStatusException es capturada por Spring MVC y serializada automáticamente como JSON de error.
         return productRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Product not found: " + id));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found: " + id));
     }
 
     /**
@@ -62,6 +66,8 @@ public class ProductService {
      * @throws RuntimeException if the product does not exist
      */
     public int getStock(Long productId) {
+        // Reutilizar getById para no duplicar el manejo de 404.
+        // Si el producto no existe, getById ya lanza ResponseStatusException(404).
         return getById(productId).getStock();
     }
 }
