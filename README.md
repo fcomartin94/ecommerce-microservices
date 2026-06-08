@@ -2,8 +2,6 @@
 
 > Full microservices backend with **Spring Boot + Spring Cloud Gateway + Eureka**, real **PostgreSQL** persistence, **JWT authentication**, and inter-service communication. Five independent services working end-to-end through a single API Gateway entry point.
 
-🔗 **[View interactive architecture diagram](https://fcomartin94.github.io/ecommerce-microservices-visualizer/)**
-
 ---
 
 ## Architecture
@@ -81,6 +79,3 @@ curl -s -X POST http://localhost:8080/api/orders/reserve \
   -d '{"productId":1,"quantity":2}'
 ```
 
-## Interactive diagram
-
-[ecommerce-microservices-visualizer](https://github.com/fcomartin94/ecommerce-microservices-visualizer)
